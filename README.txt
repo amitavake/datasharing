@@ -5,7 +5,7 @@ and the raw data files that contain data from an experimental study.
    manually download and unzip the files with raw datasets via the following link:
    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
    Place the data files in the current working directory where R is running.
-2. The list of files in the data set is avaailble beow (taken from the original 
+2. The list of files in the data set is available below (taken from the original 
    README file for the original published data sets).
 3. Run the R script and notice that two output files are generated in the current 
    working directory: finalDataTable.txt and tidyDataSet.txt. These data frames
@@ -13,13 +13,13 @@ and the raw data files that contain data from an experimental study.
 	data <- read.table(file_path, header = TRUE) 
     	View(data)
 4. The finalDataTable.txt is the output for the first part of the exercise. This data
-   is a subset of the original dataset and contains only the varoables that have "mean" and
+   is a subset of the original dataset and contains only the variables that have "mean" and
    "std" in their variable names. Accordingly, this data frame has 86 variables and 2 ids
-   (subject and activity). This data repesents a clean dataset (no duplicate row/columns) 
+   (subject and activity). This data represents a clean dataset (no duplicate row/columns) 
    that are a product of combining the data with their respective variable names.
 5. The second output file (tidyDataSet.txt) contains the final processed data via reshaping
    of the finalDataTable.txt. This data forms a tidy data set.
-6. There are 30 subjects (1 - 30) with each having 6 activity (laying, walking etc).
+6. There are 30 subjects (1 - 30) with each having 6 activities (laying, walking etc).
    Therefore, there are 180 observations.
 
 Here is a brief description of the data files.
@@ -52,3 +52,4 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+
