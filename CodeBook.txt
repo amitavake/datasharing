@@ -42,14 +42,109 @@ Amitava G., VA, USA
 	Step 10: Use a copy of the finalDataTable obtained in step 6. Melt the data frame based on id's (subject and activity)
 	        to obtain a precursor of "tidy data set".
 	Step 11: Cast the data to get the mean of each subject and each activity.
-	Step 12: Write the tidy data into a text file.	
+	Step 12: Write the tidy data into a text file.	The name of the data frame is 
 
 5. How to read the final processed data (tidy data set):
 	The data can be read back to R via the followng command:
 	data <- read.table(file_path, header = TRUE) 
     	View(data)
+    	
+6. Followiing is the complete list of variables in the tidyData. Note that the first 2 variables are id's 
+(subject and activity). They are factors. The remaining tidyDataSet data frame variables are computed
+mean for each subject and activity combination. The "x", "y" and "z" in the variable names represent
+measuements in those directions.
+
+•	subject	
+•	activity	
+•	tbodyacc-mean-x	
+•	tbodyacc-mean-y	
+•	tbodyacc-mean-z	
+•	tgravityacc-mean-x	
+•	tgravityacc-mean-y	
+•	tgravityacc-mean-z	
+•	tbodyaccjerk-mean-x	
+•	tbodyaccjerk-mean-y	
+•	tbodyaccjerk-mean-z	
+•	tbodygyro-mean-x	
+•	tbodygyro-mean-y	
+•	tbodygyro-mean-z	
+•	tbodygyrojerk-mean-x	
+•	tbodygyrojerk-mean-y	
+•	tbodygyrojerk-mean-z	
+•	tbodyaccmag-mean	
+•	tgravityaccmag-mean	
+•	tbodyaccjerkmag-mean	
+•	tbodygyromag-mean	
+•	tbodygyrojerkmag-mean	
+•	fbodyacc-mean-x	
+•	fbodyacc-mean-y	
+•	fbodyacc-mean-z	
+•	fbodyacc-meanfreq-x	
+•	fbodyacc-meanfreq-y	
+•	fbodyacc-meanfreq-z	
+•	fbodyaccjerk-mean-x	
+•	fbodyaccjerk-mean-y	
+•	fbodyaccjerk-mean-z	
+•	fbodyaccjerk-meanfreq-x	
+•	fbodyaccjerk-meanfreq-y	
+•	fbodyaccjerk-meanfreq-z	
+•	fbodygyro-mean-x	
+•	fbodygyro-mean-y	
+•	fbodygyro-mean-z	
+•	fbodygyro-meanfreq-x	
+•	fbodygyro-meanfreq-y	
+•	fbodygyro-meanfreq-z	
+•	fbodyaccmag-mean	
+•	fbodyaccmag-meanfreq	
+•	fbodybodyaccjerkmag-mean	
+•	fbodybodyaccjerkmag-meanfreq	
+•	fbodybodygyromag-mean	
+•	fbodybodygyromag-meanfreq	
+•	fbodybodygyrojerkmag-mean	
+•	fbodybodygyrojerkmag-meanfreq	
+•	angle(tbodyaccmean,gravity)	
+•	angle(tbodyaccjerkmean),gravitymean)	
+•	angle(tbodygyromean,gravitymean)	
+•	angle(tbodygyrojerkmean,gravitymean)	
+•	angle(x,gravitymean)	
+•	angle(y,gravitymean)	
+•	angle(z,gravitymean)	
+•	tbodyacc-std-x	
+•	tbodyacc-std-y	
+•	tbodyacc-std-z	
+•	tgravityacc-std-x	
+•	tgravityacc-std-y	
+•	tgravityacc-std-z	
+•	tbodyaccjerk-std-x	
+•	tbodyaccjerk-std-y	
+•	tbodyaccjerk-std-z	
+•	tbodygyro-std-x	
+•	tbodygyro-std-y	
+•	tbodygyro-std-z	
+•	tbodygyrojerk-std-x	
+•	tbodygyrojerk-std-y	
+•	tbodygyrojerk-std-z	
+•	tbodyaccmag-std	
+•	tgravityaccmag-std	
+•	tbodyaccjerkmag-std	
+•	tbodygyromag-std	
+•	tbodygyrojerkmag-std	
+•	fbodyacc-std-x	
+•	fbodyacc-std-y	
+•	fbodyacc-std-z	
+•	fbodyaccjerk-std-x	
+•	fbodyaccjerk-std-y	
+•	fbodyaccjerk-std-z	
+•	fbodygyro-std-x	
+•	fbodygyro-std-y	
+•	fbodygyro-std-z	
+•	fbodyaccmag-std	
+•	fbodybodyaccjerkmag-std	
+•	fbodybodygyromag-std	
+•	fbodybodygyrojerkmag-std
+
     
-6. The original codebook/metadata doc (by the original author) explains each variable in the dataset and is available below:
+7. The original codebook/metadata doc (by the original author) explains each variable in the dataset and is available below:
    
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -66,7 +161,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit� degli Studi di Genova.
+DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
