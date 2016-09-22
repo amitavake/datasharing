@@ -147,7 +147,6 @@ measuements in those directions.
 "fbodybodyaccjerkmag-std"
 "fbodybodygyromag-std"
 "fbodybodygyrojerkmag-std"
-
     
 7. The original codebook/metadata doc (by the original author) explains each variable in the dataset and is available below:
    
