@@ -13,26 +13,33 @@ Code Book for "Getting and Cleaning Data" - Week 4 Peer-Reviewed Assignment
 
 	See below for a brief descrption on the experimental study and the data collected from the study. 
 
-2. Aquiring and Cleaning Data as part of the Coursera exercise:
+2. Getting and Cleaning Data as part of the Coursera exercise:
    The raw source data were obtained via the following link:
    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 3. The following steps were followed in the attached run_analysis.R script in order to "clean" and assemble the data:
    Please refer to the attached R script (run_analysis.R) for more details.
 
-	-- Step 1: download the raw data from external source into the R working directory.
-	-- Step 2: Read in the "test" data from files, test/X_test.txt, test/y_test.txt and test/Inertial Signals/subject_test.txt
+	Step 1: download the raw data from external source into the R working directory.
+	
+	Step 2: Read in the "test" data from files, test/X_test.txt, test/y_test.txt and test/Inertial Signals/subject_test.txt
 		and save them as testData, testLabel and testSubject data frames.
+	
 	Step 3: Similarly, Prepare the "train" data to obtain trainData, trainLabel and trainSubject data frames.
+	
 	Step 4: Join the test and train data via rbind to obtain combinedData data frame. Also, read in the features.txt file
+	
 	Step 5: a) Add the column names from the feature data frame to the combinedData data frame.
 		b) Search for patterns "*mean*" and "*std*" from the variable names in the combinedData data frame and subset the
 		data only for those variables with the matching patterns in the column names.
+	
 	Step 6: a) Use descriptive activity names to name the activities in the data set. For example, remove underscore in the 
 		varriable names and use camelCase letters in varriable names (e.g., walkingUpstairs).
 		b) Replace the numeric values of activity (1 thourgh  6) with the names of the activities (e.g, laying, walking etc.)
+	
 	Step 7: Use these activity names in the final data frame finalDataTable. Add the data frmaes together via cbind and sort 
 		the observations based on the two ids (subject and activity).
+	
 	Step 8. Write the data in a text file and save a local copy in the working dir as finalDataTable.txt 
 
 4. The following steps were followed in order to obtain a "single, independent tody data set:
