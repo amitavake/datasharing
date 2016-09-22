@@ -1,6 +1,6 @@
-==================================================================
-Code Book for "Getting and Cleaning Data" - Week 4 Peer-Reviewwd Assignment
-==================================================================
+============================================================================
+Code Book for "Getting and Cleaning Data" - Week 4 Peer-Reviewed Assignment
+============================================================================
 
 1. Background of the Data:
 	The following brief description of the background on the data was obtained
