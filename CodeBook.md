@@ -20,8 +20,8 @@ Code Book for "Getting and Cleaning Data" - Week 4 Peer-Reviewed Assignment
 3. The following steps were followed in the attached run_analysis.R script in order to "clean" and assemble the data:
    Please refer to the attached R script (run_analysis.R) for more details.
 
-	Step 1: download the raw data from external source into the R working directory.
-	Step 2: Read in the "test" data from files, test/X_test.txt, test/y_test.txt and test/Inertial Signals/subject_test.txt
+	-- Step 1: download the raw data from external source into the R working directory.
+	-- Step 2: Read in the "test" data from files, test/X_test.txt, test/y_test.txt and test/Inertial Signals/subject_test.txt
 		and save them as testData, testLabel and testSubject data frames.
 	Step 3: Similarly, Prepare the "train" data to obtain trainData, trainLabel and trainSubject data frames.
 	Step 4: Join the test and train data via rbind to obtain combinedData data frame. Also, read in the features.txt file
