@@ -79,7 +79,7 @@ measuements in those directions.
 "tbodyaccmag-mean"	
 "tgravityaccmag-mean"	
 "tbodyaccjerkmag-mean"	
-"tbodygyromag-mean"	
+"tbodygyromag-mean"
 "tbodygyrojerkmag-mean"	
 "fbodyacc-mean-x"	
 "fbodyacc-mean-y"	
