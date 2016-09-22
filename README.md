@@ -25,7 +25,6 @@ and the raw data files that contain data from an experimental study.
 Here is a brief description of the data files.
 
 The dataset includes the following files:
-=========================================
 
 - 'README.txt'
 
