@@ -1,7 +1,6 @@
 ==================================================================
 Getting and Cleaning data - Week 4 Peer-Reviewwd Assignment
-Version 1.0
-Amitava G., VA, USA
+Version 1.0, Author: Amitava G. VA, USA
 ==================================================================
 
 1. Background of the Data:
